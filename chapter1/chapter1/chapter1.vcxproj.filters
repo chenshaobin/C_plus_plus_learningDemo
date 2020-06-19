@@ -18,5 +18,42 @@
     <ClCompile Include="test_main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="whileCount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="forCount.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_error.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="occurs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="item_io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_item.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="add_item2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="book_report.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sales_item.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="book_sales.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+    <Text Include="readme.txt">
+      <Filter>资源文件</Filter>
+    </Text>
   </ItemGroup>
 </Project>
