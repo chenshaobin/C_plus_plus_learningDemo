@@ -1,4 +1,5 @@
 #include<iostream>
+#include "../header/chapter6.h"
 
 using std::cin;
 using std::cout;
@@ -23,9 +24,10 @@ void interactWithUser()
 		cout << val << " ! = " << fact(val) << endl;
 	}
 }
-
+/*
 int main()
 {
 	interactWithUser();
 	return 0;
 }
+*/

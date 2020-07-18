@@ -1,0 +1,19 @@
+#include<iostream>
+using std::cin;
+using std::cout;
+using std::endl;
+
+#include<string>
+using std::string;
+
+string make_plural(size_t ctr, const string &word, const string &ending)
+{
+	return (ctr > 1) ? word + ending : word;
+}
+
+int main()
+{
+	cout << "singual: " << make_plural(1, "success", "es") << " " << make_plural(1, "failure", "es") << endl;
+	cout << "plural: " << make_plural(2, "success", "es") << " " << make_plural(2, "failure", "es") << endl;
+	return 0;
+}
